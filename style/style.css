@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* .btn-primary {
     height: 40px;
     background: #f71f2a;
@@ -18,43 +19,46 @@
     cursor: pointer;
     
   } */
-           
-  .btn-primary {
-    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+
+.btn-primary {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
-    border: 0;            
+    border: 0;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-    
-  }
 
-  .btn-primary:hover {
-    background-position: right center; /* change the direction of the change here */
+}
+
+.btn-primary:hover {
+    background-position: right center;
+    /* change the direction of the change here */
     color: #fff;
     cursor: pointer;
-  }
- 
+}
 
-.description{
+
+.description {
     padding-bottom: 20px;
     color: rgb(71, 71, 71);
     text-wrap: wrap;
     text-align: center;
 }
-.section-header{
+
+.section-header {
     font-size: 35px;
     font-weight: 700;
     padding-bottom: 20px;
     text-align: center;
 }
+
 /* Header start */
-.header{
+.header {
 
     background-color: #ffffff;
     background-image: url('/images/help-getty.jpg');
@@ -63,9 +67,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* background-image: linear-gradient(white, white, #a1a1a1); */
 }
-.header-text{
+
+.header-text {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -74,176 +78,205 @@
     color: white;
     max-width: 50%;
 }
-.header .btn-primary{
+
+.header .btn-primary {
     margin-left: 370px;
 }
 
-.header-title{
+.header-title {
     padding: 100px 0 20px 0;
     color: #fff;
     font-size: 50px;
     text-wrap: wrap;
-    
+
 }
+
 .header .description {
     color: rgb(255, 255, 255);
     margin: 0 150px;
     padding-bottom: 30px;
-} 
+}
 
 /* Main start */
 
 main {
     max-width: 940px;
     margin: 0 auto;
-  }
+}
 
-  /* Donate Today Start */
+/* Donate Today Start */
 
-.donate{
+.donate {
     text-align: center;
-    margin-top: 100px ;
+    margin-top: 100px;
     text-align: center;
 }
-.donate-today .description{
+
+.donate-today .description {
     color: rgb(71, 71, 71);
     padding: 0 200px;
     padding-bottom: 30px;
-    
+
 }
 
-.amount{
+.amount {
     display: flex;
     gap: 10px;
     align-items: center;
     text-align: center;
     margin: 0 220px;
 }
-.taka{
-    background-color:#f3f3f3 ;
+
+.taka {
+    background-color: #f3f3f3;
     padding: 25px;
     color: rgb(85, 85, 85);
     border: 1px solid #f3f3f3;
     border-radius: 5px;
     margin-bottom: 20px;
-   
-    
+
+
 }
+
 .taka:hover {
     cursor: pointer;
     color: red;
     border: 1px solid red;
 }
+
 #other-ammount {
     border: none;
     width: 510px;
     text-align: center;
     padding-top: 20px;
 }
-hr{
+
+hr {
     width: 510px;
     margin-left: 220px;
     margin-bottom: 20px;
 }
-main .btn-primary{
+
+main .btn-primary {
     margin-left: 380px;
 }
+
 /* Our Donate plan start */
 
-.plan .section-header{
+.plan .section-header {
     padding-top: 70px;
     padding-bottom: 20px;
 }
-.plan>.description{
+
+.plan>.description {
     padding: 0 200px;
     padding-bottom: 30px;
 }
+
 .donate-plan {
     display: flex;
     gap: 20px;
 }
-.food-img{
+
+.food-img {
     height: 50px;
     padding-top: 20px;
     padding-bottom: 20px
 }
-.food-1{
+
+.food-1 {
     background-color: #EDF5F6;
     padding: 35px;
 }
-.food-2{
+
+.food-2 {
     background-color: #FFEEEE;
     padding: 35px;
 }
-.food-3{
+
+.food-3 {
     background-color: #FFF4D6;
     padding: 35px;
 }
-.content-header{
+
+.content-header {
     font-size: 20px;
     padding-bottom: 20px;
 }
 
-.support{
+.support {
     display: flex;
     gap: 40px;
     margin-top: 100px;
 }
-.content-img img{
+
+.content-img img {
     height: 300px;
     padding: 0 30px;
 }
-.support-item-1{
+
+.support-item-1 {
     max-width: 400px;
 }
-.support-item-1 .section-header{
+
+.support-item-1 .section-header {
     text-align: left;
 }
-.support-item-1 .btn-primary{
+
+.support-item-1 .btn-primary {
     margin-left: 0;
 }
-.support-item-2{
+
+.support-item-2 {
     max-width: 400px;
 }
-.support-item-2 .section-header{
+
+.support-item-2 .section-header {
     text-align: left;
 }
-.support-item-1 .description{
+
+.support-item-1 .description {
     text-align: left;
 }
-.support-item-2 .btn-primary{
+
+.support-item-2 .btn-primary {
     margin-left: 0;
 }
-#support-2 img{
+
+#support-2 img {
     padding-left: 0;
 }
 
 /* Get updates start */
 
-.get-updates{
+.get-updates {
     padding-top: 100px;
     padding-bottom: 30px;
 }
-.get-updates .description{
+
+.get-updates .description {
     padding: 0 200px;
     padding-bottom: 30px;
 }
-.update-subscribe{
-   background-color: #FFF4D6;
-   padding: 100px 250px;
-   display: flex;
-   align-items: center;
-   padding-left: 320px;
+
+.update-subscribe {
+    background-color: #FFF4D6;
+    padding: 100px 250px;
+    display: flex;
+    align-items: center;
+    padding-left: 320px;
 }
+
 .update-subscribe #email {
     width: 200px;
     padding: 10px;
     border: none;
-    color: #7e7c7c ;
-    background-color:#D9D9D9 ;
+    color: #7e7c7c;
+    background-color: #D9D9D9;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .update-subscribe .btn-subscribe {
     padding: 10px;
     width: 100px;
@@ -254,9 +287,32 @@ main .btn-primary{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.btn-subscribe:hover{
+.btn-subscribe:hover {
     background-color: #fd0101;
     cursor: pointer;
 }
+
 /* footer start */
 
+.footer {
+    width: 100%;
+    background-color: #0B0D17;
+    height: 200px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer-header {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Skate Semi Bold;
+    color: #FF5959;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer-description {
+    color: white;
+}
