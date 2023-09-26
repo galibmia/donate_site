@@ -61,7 +61,7 @@
 .header {
 
     background-color: #ffffff;
-    background-image: url('/images/help-getty.jpg');
+    background-image: url('images/help-getty.jpg');
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
