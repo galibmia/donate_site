@@ -3,22 +3,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .btn-primary {
-    height: 40px;
-    background: #f71f2a;
-    padding: 10px 10px;
-    border: 0;
-    border-radius: 5px;
-    color: #ffff;
-    font-weight: 400;
-    font-size: 15px;
-  }
-
-  .btn-primary:hover{
-    background: #f71f2aa9;
-    cursor: pointer;
-    
-  } */
 
 .btn-primary {
     background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
