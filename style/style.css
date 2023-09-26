@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .btn-primary {
+    height: 40px;
+    background: #f71f2a;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .btn-primary:hover{
+    background: #f71f2aa9;
+    cursor: pointer;
+    
+  } */
+           
+  .btn-primary {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    
+  }
+
+  .btn-primary:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    cursor: pointer;
+  }
+ 
+
+.description{
+    padding-bottom: 20px;
+    color: rgb(71, 71, 71);
+}
+.section-header{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-align: center;
+}
+/* Header start */
+.header{
+
+    background-color: #ffffff;
+    background-image: url('/images/help-getty.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* background-image: linear-gradient(white, white, #a1a1a1); */
+}
+.header-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    max-width: 50%;
+}
+.header .btn-primary{
+    margin-left: 280px;
+}
+
+.header-title{
+    padding: 100px 0 20px 0;
+    color: #fff;
+    
+}
+.header .description {
+    color: rgb(255, 255, 255);
+}
+
+main {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+
+.donate{
+    text-align: center;
+    margin-top: 100px ;
+    text-align: center;
+}
+.donate-today .description{
+    color: rgb(71, 71, 71);
+    padding-bottom: 30px;
+}
+
+.amount{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 0 220px;
+}
+.taka{
+    background-color:#f3f3f3 ;
+    padding: 25px;
+    color: rgb(85, 85, 85);
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    margin-bottom: 20px;
+   
+    
+}
+.taka:hover {
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+}
+#other-ammount {
+    border: none;
+    width: 510px;
+    text-align: center;
+    padding-top: 20px;
+}
+hr{
+    width: 510px;
+    margin-left: 220px;
+    margin-bottom: 20px;
+}
+main .btn-primary{
+    margin-left: 380px;
+}
+/*  */
+
+.plan .section-header{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.donate-plan {
+    display: flex;
+    gap: 20px;
+}
+.food-img{
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.food-1{
+    background-color: #EDF5F6;
+    padding: 35px;
+}
+.food-2{
+    background-color: #FFEEEE;
+    padding: 35px;
+}
+.food-3{
+    background-color: #FFF4D6;
+    padding: 35px;
+}
+.content-header{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.support{
+    display: flex;
+    gap: 40px;
+    padding-top: 80px;
+}
+.content-img img{
+    height: 300px;
+    padding: 0 30px;
+}
+.support-item-1{
+    max-width: 400px;
+}
+.support-item-1 .section-header{
+    text-align: left;
+}
+.support-item-1 .btn-primary{
+    margin-left: 0;
+}
+.support-item-2{
+    max-width: 400px;
+}
+.support-item-2 .section-header{
+    text-align: left;
+}
+.support-item-1 .description{
+    text-align: left;
+}
+.support-item-2 .btn-primary{
+    margin-left: 0;
+}
+#support-2 img{
+    padding-left: 0;
+}
+
+
