@@ -26,7 +26,8 @@
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white;
+    border: 0;            
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
@@ -43,6 +44,8 @@
 .description{
     padding-bottom: 20px;
     color: rgb(71, 71, 71);
+    text-wrap: wrap;
+    text-align: center;
 }
 .section-header{
     font-size: 35px;
@@ -72,22 +75,30 @@
     max-width: 50%;
 }
 .header .btn-primary{
-    margin-left: 280px;
+    margin-left: 370px;
 }
 
 .header-title{
     padding: 100px 0 20px 0;
     color: #fff;
+    font-size: 50px;
+    text-wrap: wrap;
     
 }
 .header .description {
     color: rgb(255, 255, 255);
-}
+    margin: 0 150px;
+    padding-bottom: 30px;
+} 
+
+/* Main start */
 
 main {
     max-width: 940px;
     margin: 0 auto;
   }
+
+  /* Donate Today Start */
 
 .donate{
     text-align: center;
@@ -96,7 +107,9 @@ main {
 }
 .donate-today .description{
     color: rgb(71, 71, 71);
+    padding: 0 200px;
     padding-bottom: 30px;
+    
 }
 
 .amount{
@@ -135,11 +148,15 @@ hr{
 main .btn-primary{
     margin-left: 380px;
 }
-/*  */
+/* Our Donate plan start */
 
 .plan .section-header{
     padding-top: 70px;
     padding-bottom: 20px;
+}
+.plan>.description{
+    padding: 0 200px;
+    padding-bottom: 30px;
 }
 .donate-plan {
     display: flex;
@@ -170,7 +187,7 @@ main .btn-primary{
 .support{
     display: flex;
     gap: 40px;
-    padding-top: 80px;
+    margin-top: 100px;
 }
 .content-img img{
     height: 300px;
@@ -201,4 +218,45 @@ main .btn-primary{
     padding-left: 0;
 }
 
+/* Get updates start */
+
+.get-updates{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.get-updates .description{
+    padding: 0 200px;
+    padding-bottom: 30px;
+}
+.update-subscribe{
+   background-color: #FFF4D6;
+   padding: 100px 250px;
+   display: flex;
+   align-items: center;
+   padding-left: 320px;
+}
+.update-subscribe #email {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    color: #7e7c7c ;
+    background-color:#D9D9D9 ;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.update-subscribe .btn-subscribe {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background-color: #FF5959;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-subscribe:hover{
+    background-color: #fd0101;
+    cursor: pointer;
+}
+/* footer start */
 
